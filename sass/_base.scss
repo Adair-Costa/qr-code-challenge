@@ -1,0 +1,45 @@
+// CUSTOM PROPERTIES OR CSS VARIABLES
+:root {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --white: #ffffff;
+
+  --spacing-500: 1.81rem; // 40px / 22px = 1.81rem
+  --spacing-300: 1.09rem; // 24px / 22px = 1.09rem
+  --spacing-200: 0.72rem; // 16px / 22px = 0.72rem
+
+  --size-title: 1rem; // 22px / 22px = 1rem
+  --size-paragraph: 0.681rem; // 15px / 22px = 0.681rem
+}
+
+// SASS VARIABLES
+$bp-largest: 82.62em; // 1322px / 16px = 75em
+$bp-extra-largest: 64em; // 1024px / 16px = 64em
+$bp-smallest: 22.5em; // 360px / 16px = 22.5em
+$bp-extra-smallest: 18.375em; // 294px / 16px = 18.375em
+
+// UNIVERSAL STYLES
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 137.5%; // 1rem = 22px | 22px / 16px = 1.375% * 100 = 137.5%
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0;
+}

@@ -1,0 +1,52 @@
+// MAIN CONTAINER
+.container {
+  background-color: var(--slate-300);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// BOX CONTAINER
+.container__box {
+  background-color: var(--white);
+  padding: var(--spacing-200) var(--spacing-200) var(--spacing-500)
+    var(--spacing-200);
+  width: 14.55rem;
+  height: 22.68rem;
+  border-radius: 0.9rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  // MEDIA QUERY
+  @media only screen and (max-width: $bp-smallest) {
+    & {
+      width: 12rem;
+      height: 20rem;
+      padding: 0.5rem 0.5rem 1rem 0.5rem;
+      border-radius: 0.5rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: $bp-extra-largest) {
+    & {
+      margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (max-width: $bp-extra-smallest) {
+    & {
+      width: 10rem;
+      height: 17rem;
+      padding: 0.3rem 0.3rem 0.5rem 0.3rem;
+      border-radius: 0.3rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
