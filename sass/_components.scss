@@ -35,6 +35,11 @@
 
   flex: 1;
 
+  // MEDIA QUERY
+  @media only screen and (max-width: $bp-extra-smallest) {
+    width: 10rem;
+  }
+
   &--title {
     color: var(--slate-900);
     font-size: var(--size-title);
@@ -60,6 +65,7 @@
     font-size: var(--size-paragraph);
     font-weight: inherit;
     color: var(--slate-500);
+    width: 11.36rem;
 
     // MEDIA QUERY
     @media only screen and (max-width: $bp-smallest) {
@@ -75,6 +81,7 @@
         font-size: 0.5rem;
         margin-bottom: 0.1rem;
         line-height: 0.9rem;
+        width: 10rem;
       }
     }
   }
