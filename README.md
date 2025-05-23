@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Adair-Costa/qr-code-challenge.git)
-- Live Site URL: [Add live site URL here](https://qr-code-challenge-self.vercel.app/)
+- Solution URL: (https://github.com/Adair-Costa/qr-code-challenge.git)
+- Live Site URL: (https://qr-code-challenge-self.vercel.app/)
 
 ## My process
 
@@ -46,4 +46,4 @@ Areas that I want to develop are: be comfortable with **Flexbox and Grid layouts
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Adair-Costa)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/Adair-Costa)
